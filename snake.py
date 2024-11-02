@@ -72,7 +72,6 @@ class Snake:
             self.direction = 270
 
     def increase_tail(self):
-
         xcor = self.snake_segments[-1].xcor()
         ycor = self.snake_segments[-1].ycor()
         s = Turtle(shape='square')
